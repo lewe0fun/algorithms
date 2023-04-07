@@ -11,7 +11,7 @@ public class RedBlackTree<T extends Comparable<T>> {
         private Node leftChild;
         private Node rightChild;
         private Colour colour;
-        public Node() {
+        private Node() {
             this.colour = Colour.RED;
         }
     }
